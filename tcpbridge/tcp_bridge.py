@@ -11,7 +11,7 @@ import sys
 import socket
 import select
 import threading
-from Queue import Queue, Empty
+from queue import Queue, Empty
 from .sink import SinkError, SocketSink
 from .tcp_server import TCPServer, TCPError
 
